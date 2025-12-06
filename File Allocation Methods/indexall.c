@@ -46,8 +46,6 @@ void showbv(){
 	}
 }
 
-
-
 int findFreeBlock() {
     for (int i = 0; i < n; ++i) {
         if (bv[i] == 1) {
@@ -109,8 +107,6 @@ void createfile()
 	strcpy(direntry[k].fname,fname);
 	direntry[k].length = length;
 }
-
-
 
 void displaydir()
 {
