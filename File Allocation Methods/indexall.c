@@ -1,6 +1,5 @@
-//Each file is a linked list of blocks scattered anywhere on the disk.
-//Eliminates fragmentation but provides slower access due to pointer traversal.
-
+//Uses an index block that stores all block addresses of a file. 
+// It supports direct access and avoids fragmentation, but requires extra space for the index block.
 #include<stdio.h>
 #include<stdlib.h>
 #include<string.h>
